@@ -19,8 +19,7 @@ total_price += bikes[0].weekly_price
 total_price += bikes[0].tail_pack_cost
 
 total_price += bikes[1].daily_price * 7
-total_price += bikes[1].panniers[0].price
-total_price += bikes[1].panniers[1].price
+total_price += bikes[1].panniers_price
 
 total_price += bikes[2].weekly_price
 total_price += bikes[2].luggage.price
