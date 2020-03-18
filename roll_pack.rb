@@ -1,10 +1,9 @@
 class RollPack
-  # Set price
-  def initialize
-  @price = 1 # Flat rate per rental
+
+  attr_accesor :price
+
+  def initialize(price = 1)
+    @price = price
   end
-  # Get price
-  def price
-  @price # Price set in initializer
-  end
+
 end
