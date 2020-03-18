@@ -20,7 +20,7 @@ class BmxBike
   end
 
   def tail_pack_cost
-    @tail_pack.cost
+    @tail_pack.price
   end
 
 end
