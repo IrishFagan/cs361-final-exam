@@ -2,7 +2,7 @@ require_relative 'pannier'
 
 class RoadBike
 
-  attr_accessor :panniers :daily_price
+  attr_accessor :daily_price
 
   def initialize(panniers = [Pannier.new, Pannier.new], daily_price = 15)
     @panniers = panniers
@@ -15,6 +15,10 @@ class RoadBike
 
   def lubricate_gears
     puts "Lubricating gears..."
+  end
+
+  def panniers_price
+    @panniers.each {|pannier| return pannier.price}
   end
 
 end
