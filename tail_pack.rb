@@ -1,7 +1,7 @@
 class TailPack
 
-def initialize
-  @cost = 2 # Flat rate per rental
+def initialize(cost = 2)
+  @cost = cost # Flat rate per rental
 end
 
 def cost
