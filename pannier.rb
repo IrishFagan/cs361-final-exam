@@ -1,5 +1,3 @@
-
-
 class Pannier
 
   attr_accessor :price
