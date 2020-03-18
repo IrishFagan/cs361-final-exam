@@ -1,6 +1,6 @@
 class RollPack
 
-  attr_accesor :price
+  attr_accessor :price
 
   def initialize(price = 1)
     @price = price
